@@ -1,0 +1,26 @@
+# --- Core API ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+pydantic-settings>=2.2
+
+# --- Fractal core / imaging (pure-python friendly) ---
+numpy>=1.26
+scipy>=1.11
+scikit-image>=0.22
+opencv-python-headless>=4.9
+pillow>=10.2
+pydicom>=2.4
+
+# --- Machine learning ---
+# NOTE: torch (CPU) publishes wheels for Python 3.11-3.14 on Windows/macOS (PyTorch 2.9+),
+# so a default 3.14 venv works for CPU inference. Only GPU/CUDA wheels for 3.14 are missing,
+# which this app doesn't need. The app degrades gracefully if these are absent (fractal
+# analysis still served). For a specific build see https://pytorch.org.
+torch>=2.2
+torchvision>=0.17
+torchxrayvision>=1.2.1
+
+# --- Tests ---
+pytest>=8.0

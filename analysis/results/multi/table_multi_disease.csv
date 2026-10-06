@@ -1,0 +1,50 @@
+source,disease,n_normal,n_disease,feature,normal_mean,disease_mean,pct_change,cohen_d,auc,p,p_holm,significant
+A,Pneumonia,500,500,dbc_fd,2.20342,2.24963,2.0968,1.38416,0.83554,0.0,0.0,True
+A,Pneumonia,500,500,local_fd_mean,2.10181,2.12178,0.95041,0.88746,0.7433,0.0,0.0,True
+A,Pneumonia,500,500,local_fd_std,0.06709,0.0742,10.59205,0.56304,0.66228,0.0,0.0,True
+A,Pneumonia,500,500,lacunarity_4,1.69687,1.75078,3.17738,0.51604,0.64682,0.0,0.0,True
+A,Pneumonia,500,500,lacunarity,1.62272,1.65673,2.09564,0.31743,0.59587,0.0,1e-05,True
+A,Pneumonia,500,500,box_counting_fd,1.86129,1.85399,-0.39212,-0.44268,0.62244,0.0,0.0,True
+A,Pneumonia,500,500,multifractal_width,1.14151,1.15724,1.37789,0.05338,0.50205,0.91082,1.0,False
+B,COVID-19,800,712,dbc_fd,2.32025,2.28568,-1.48997,-0.62654,0.70586,0.0,0.0,True
+B,COVID-19,800,712,local_fd_mean,2.13226,2.1417,0.44276,0.19345,0.51975,0.18436,1.0,False
+B,COVID-19,800,712,local_fd_std,0.06953,0.0663,-4.65414,-0.24083,0.60509,0.0,0.0,True
+B,COVID-19,800,712,lacunarity_4,1.7679,1.75699,-0.61705,-0.1073,0.56346,2e-05,0.00078,True
+B,COVID-19,800,712,lacunarity,1.57893,1.65093,4.55998,0.68799,0.67201,0.0,0.0,True
+B,COVID-19,800,712,box_counting_fd,1.85417,1.85527,0.05946,0.06725,0.5331,0.02612,0.99267,False
+B,COVID-19,800,712,multifractal_width,1.20376,1.08093,-10.20419,-0.46933,0.64523,0.0,0.0,True
+C,Bacterial pneumonia,15,49,dbc_fd,2.26296,2.25131,-0.51486,-0.24971,0.56599,0.44682,1.0,False
+C,Bacterial pneumonia,15,49,local_fd_mean,2.12146,2.10948,-0.56484,-0.2458,0.54286,0.62321,1.0,False
+C,Bacterial pneumonia,15,49,local_fd_std,0.07008,0.06719,-4.11081,-0.18059,0.54966,0.56831,1.0,False
+C,Bacterial pneumonia,15,49,lacunarity_4,1.82808,1.77173,-3.08248,-0.4498,0.62585,0.14482,1.0,False
+C,Bacterial pneumonia,15,49,lacunarity,1.74436,1.68122,-3.61984,-0.52465,0.63129,0.12814,1.0,False
+C,Bacterial pneumonia,15,49,box_counting_fd,1.84474,1.85068,0.32235,0.29259,0.57415,0.3921,1.0,False
+C,Bacterial pneumonia,15,49,multifractal_width,0.99116,1.03483,4.40623,0.15743,0.57687,0.3748,1.0,False
+C,COVID-19,15,342,dbc_fd,2.26296,2.28035,0.76826,0.27077,0.58363,0.27338,1.0,False
+C,COVID-19,15,342,local_fd_mean,2.12146,2.13617,0.69319,0.26786,0.58129,0.28704,1.0,False
+C,COVID-19,15,342,local_fd_std,0.07008,0.06688,-4.55922,-0.17339,0.55887,0.44089,1.0,False
+C,COVID-19,15,342,lacunarity_4,1.82808,1.77537,-2.88349,-0.41519,0.61949,0.11743,1.0,False
+C,COVID-19,15,342,lacunarity,1.74436,1.67263,-4.1123,-0.54986,0.65205,0.04631,1.0,False
+C,COVID-19,15,342,box_counting_fd,1.84474,1.85193,0.39016,0.34888,0.59162,0.23009,1.0,False
+C,COVID-19,15,342,multifractal_width,0.99116,1.04611,5.54434,0.22321,0.59766,0.20077,1.0,False
+C,Fungal pneumonia,15,23,dbc_fd,2.26296,2.29472,1.4033,0.58886,0.67536,0.07316,1.0,False
+C,Fungal pneumonia,15,23,local_fd_mean,2.12146,2.12238,0.0434,0.0187,0.54493,0.65418,1.0,False
+C,Fungal pneumonia,15,23,local_fd_std,0.07008,0.06459,-7.82153,-0.44305,0.56812,0.49216,1.0,False
+C,Fungal pneumonia,15,23,lacunarity_4,1.82808,1.8956,3.69326,0.46142,0.6087,0.26917,1.0,False
+C,Fungal pneumonia,15,23,lacunarity,1.74436,1.75572,0.65115,0.07475,0.52464,0.81117,1.0,False
+C,Fungal pneumonia,15,23,box_counting_fd,1.84474,1.8347,-0.54376,-0.43324,0.62029,0.22079,1.0,False
+C,Fungal pneumonia,15,23,multifractal_width,0.99116,1.03596,4.52031,0.16109,0.61449,0.24414,1.0,False
+C,Tuberculosis,15,11,dbc_fd,2.26296,2.26128,-0.07435,-0.03038,0.53333,0.79525,1.0,False
+C,Tuberculosis,15,11,local_fd_mean,2.12146,2.11471,-0.31834,-0.11866,0.50909,0.95861,1.0,False
+C,Tuberculosis,15,11,local_fd_std,0.07008,0.07233,3.21584,0.13342,0.53939,0.7555,1.0,False
+C,Tuberculosis,15,11,lacunarity_4,1.82808,1.8412,0.71764,0.08146,0.50303,1.0,1.0,False
+C,Tuberculosis,15,11,lacunarity,1.74436,1.74373,-0.03586,-0.00409,0.53939,0.7555,1.0,False
+C,Tuberculosis,15,11,box_counting_fd,1.84474,1.84146,-0.17756,-0.12783,0.50909,0.95861,1.0,False
+C,Tuberculosis,15,11,multifractal_width,0.99116,0.94243,-4.91596,-0.15566,0.52121,0.87627,1.0,False
+C,Viral pneumonia (non-COVID),15,36,dbc_fd,2.26296,2.25862,-0.19169,-0.08548,0.52222,0.81209,1.0,False
+C,Viral pneumonia (non-COVID),15,36,local_fd_mean,2.12146,2.12625,0.22579,0.09065,0.53889,0.67172,1.0,False
+C,Viral pneumonia (non-COVID),15,36,local_fd_std,0.07008,0.06503,-7.20104,-0.33642,0.57593,0.40246,1.0,False
+C,Viral pneumonia (non-COVID),15,36,lacunarity_4,1.82808,1.82274,-0.29212,-0.04509,0.51667,0.86052,1.0,False
+C,Viral pneumonia (non-COVID),15,36,lacunarity,1.74436,1.74097,-0.19443,-0.028,0.51481,0.87679,1.0,False
+C,Viral pneumonia (non-COVID),15,36,box_counting_fd,1.84474,1.84392,-0.04422,-0.04557,0.51111,0.90948,1.0,False
+C,Viral pneumonia (non-COVID),15,36,multifractal_width,0.99116,1.07183,8.13901,0.29554,0.62778,0.15676,1.0,False

@@ -1,0 +1,34 @@
+{
+  "n_normal": 500,
+  "n_pneumonia": 500,
+  "n_covid_reference": 125,
+  "significant_fractal_features": 9,
+  "total_fractal_features": 10,
+  "best_single_feature": "DBC surface FD",
+  "best_single_feature_auc": 0.836,
+  "best_single_feature_change_pct": 2.1,
+  "rf_fractal_only": {
+    "AUC": 0.865,
+    "accuracy": 0.788,
+    "sensitivity": 0.76,
+    "specificity": 0.816
+  },
+  "rf_brightness_only": {
+    "AUC": 0.728,
+    "accuracy": 0.665,
+    "sensitivity": 0.656,
+    "specificity": 0.674
+  },
+  "rf_fractal_plus_brightness": {
+    "AUC": 0.893,
+    "accuracy": 0.816,
+    "sensitivity": 0.782,
+    "specificity": 0.85
+  },
+  "fraction_of_map_cells_significant": 0.818,
+  "top_importance": [
+    "DBC surface FD",
+    "Local FD (mean)",
+    "Lacunarity (r=4)"
+  ]
+}

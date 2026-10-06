@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Model weights (large; train & drop in locally)
+backend/weights/*.pt
+
+# Data
+data/
+*.dcm
+
+# Env / editor
+.env
+.DS_Store
+.idea/
+.vscode/

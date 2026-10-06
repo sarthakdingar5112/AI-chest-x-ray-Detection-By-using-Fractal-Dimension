@@ -1,0 +1,7 @@
+features,model,AUC,accuracy,sensitivity,specificity,n_features
+Brightness only (control),Logistic regression,0.7279,0.681,0.672,0.69,2
+Brightness only (control),Random forest,0.7277,0.665,0.656,0.674,2
+Fractal features only,Logistic regression,0.8645,0.799,0.788,0.81,10
+Fractal features only,Random forest,0.8653,0.788,0.76,0.816,10
+Fractal + brightness,Logistic regression,0.8894,0.832,0.816,0.848,12
+Fractal + brightness,Random forest,0.8925,0.816,0.782,0.85,12

@@ -1,0 +1,56 @@
+[
+ {
+  "features": "Brightness only (control)",
+  "model": "Logistic regression",
+  "AUC": 0.7279,
+  "accuracy": 0.681,
+  "sensitivity": 0.672,
+  "specificity": 0.69,
+  "n_features": 2
+ },
+ {
+  "features": "Brightness only (control)",
+  "model": "Random forest",
+  "AUC": 0.7277,
+  "accuracy": 0.665,
+  "sensitivity": 0.656,
+  "specificity": 0.674,
+  "n_features": 2
+ },
+ {
+  "features": "Fractal features only",
+  "model": "Logistic regression",
+  "AUC": 0.8645,
+  "accuracy": 0.799,
+  "sensitivity": 0.788,
+  "specificity": 0.81,
+  "n_features": 10
+ },
+ {
+  "features": "Fractal features only",
+  "model": "Random forest",
+  "AUC": 0.8653,
+  "accuracy": 0.788,
+  "sensitivity": 0.76,
+  "specificity": 0.816,
+  "n_features": 10
+ },
+ {
+  "features": "Fractal + brightness",
+  "model": "Logistic regression",
+  "AUC": 0.8894,
+  "accuracy": 0.832,
+  "sensitivity": 0.816,
+  "specificity": 0.848,
+  "n_features": 12
+ },
+ {
+  "features": "Fractal + brightness",
+  "model": "Random forest",
+  "AUC": 0.8925,
+  "accuracy": 0.816,
+  "sensitivity": 0.782,
+  "specificity": 0.85,
+  "n_features": 12
+ }
+]

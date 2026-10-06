@@ -1,0 +1,86 @@
+[
+ {
+  "source": "A",
+  "disease": "Pneumonia",
+  "n_normal": 500,
+  "n_disease": 500,
+  "normal_mean": 2.2034,
+  "disease_mean": 2.2496,
+  "pct_change": 2.0968,
+  "cohen_d": 1.3842,
+  "p_holm": 0.0,
+  "significant": true
+ },
+ {
+  "source": "B",
+  "disease": "COVID-19",
+  "n_normal": 800,
+  "n_disease": 712,
+  "normal_mean": 2.3202,
+  "disease_mean": 2.2857,
+  "pct_change": -1.49,
+  "cohen_d": -0.6265,
+  "p_holm": 0.0,
+  "significant": true
+ },
+ {
+  "source": "C",
+  "disease": "Bacterial pneumonia",
+  "n_normal": 15,
+  "n_disease": 49,
+  "normal_mean": 2.263,
+  "disease_mean": 2.2513,
+  "pct_change": -0.5149,
+  "cohen_d": -0.2497,
+  "p_holm": 1.0,
+  "significant": false
+ },
+ {
+  "source": "C",
+  "disease": "COVID-19",
+  "n_normal": 15,
+  "n_disease": 342,
+  "normal_mean": 2.263,
+  "disease_mean": 2.2804,
+  "pct_change": 0.7683,
+  "cohen_d": 0.2708,
+  "p_holm": 1.0,
+  "significant": false
+ },
+ {
+  "source": "C",
+  "disease": "Fungal pneumonia",
+  "n_normal": 15,
+  "n_disease": 23,
+  "normal_mean": 2.263,
+  "disease_mean": 2.2947,
+  "pct_change": 1.4033,
+  "cohen_d": 0.5889,
+  "p_holm": 1.0,
+  "significant": false
+ },
+ {
+  "source": "C",
+  "disease": "Tuberculosis",
+  "n_normal": 15,
+  "n_disease": 11,
+  "normal_mean": 2.263,
+  "disease_mean": 2.2613,
+  "pct_change": -0.0744,
+  "cohen_d": -0.0304,
+  "p_holm": 1.0,
+  "significant": false
+ },
+ {
+  "source": "C",
+  "disease": "Viral pneumonia (non-COVID)",
+  "n_normal": 15,
+  "n_disease": 36,
+  "normal_mean": 2.263,
+  "disease_mean": 2.2586,
+  "pct_change": -0.1917,
+  "cohen_d": -0.0855,
+  "p_holm": 1.0,
+  "significant": false
+ }
+]

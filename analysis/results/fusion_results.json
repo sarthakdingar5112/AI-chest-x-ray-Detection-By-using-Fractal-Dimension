@@ -1,0 +1,38 @@
+{
+  "n_images": 1000,
+  "n_patients": 682,
+  "A_cnn_zero_shot": {
+    "AUC": 0.780564
+  },
+  "fractal_only_mlp": {
+    "AUC": 0.797376,
+    "accuracy": 0.721,
+    "sensitivity": 0.736,
+    "specificity": 0.706,
+    "logloss": 0.5465826666180567,
+    "epochs": 120
+  },
+  "B_cnn_head": {
+    "AUC": 0.9382199999999999,
+    "accuracy": 0.853,
+    "sensitivity": 0.846,
+    "specificity": 0.86,
+    "logloss": 0.3155401364221933,
+    "epochs": 60
+  },
+  "C_cnn_plus_fractal": {
+    "AUC": 0.9359040000000001,
+    "accuracy": 0.855,
+    "sensitivity": 0.846,
+    "specificity": 0.864,
+    "logloss": 0.3209541439915672,
+    "epochs": 60
+  },
+  "AUC_gain_C_minus_B": {
+    "mean": -0.0022824679504123467,
+    "ci95": [
+      -0.005651898525437942,
+      0.0003065002394090036
+    ]
+  }
+}
